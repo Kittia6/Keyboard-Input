@@ -11,6 +11,7 @@ namespace Keyboard_Input
         static void Main(string[] args)
         {
             string response;
-        }
+            Console.WriteLine("Say hello!");
+        } 
     }
 }
