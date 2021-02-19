@@ -12,6 +12,9 @@ namespace Keyboard_Input
         {
             string response;
             Console.WriteLine("Say hello!");
+            response = Console.ReadLine();
+
+            Console.WriteLine("You said: " + response);
         } 
     }
 }
